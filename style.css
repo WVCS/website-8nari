@@ -33,3 +33,7 @@ a {
     text-decoration: none;
     color: #3E6990;
   }
+a:hover {
+  background-color: #88A762;
+  padding: 15px
+}
