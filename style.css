@@ -15,7 +15,40 @@ img {
 }
 img:hover {
   width: 20%;}
-  nav {
+nav {
+    list-style-type: none;
+    position: fixed;
+    background-color: #A8C686;
+width: 100vw;
+    top: 0;
+    left: 0;
+padding: 1%;
+color: #3E6990;
+  }
+li {
+  display: inline;
+  padding: 300px;
+}
+  a {
+    text-decoration: none;
+    color: #3E6990;
+  }
+a:hover {
+  background-color: #88A762;
+  padding: 15px
+}
+h5 {
+  color: #3E6990
+}
+ h1 {
+  color: #3E6990;
+  font-size: 60px;
+  text-align: center;
+}
+body {
+  background-color: #CDE6F4;
+}
+nav {
     list-style-type: none;
     position: fixed;
     background-color: #A8C686;
@@ -28,15 +61,4 @@ color: #3E6990;
 li {
   display: inline;
   padding: 15%;
-}
-a {
-    text-decoration: none;
-    color: #3E6990;
-  }
-a:hover {
-  background-color: #88A762;
-  padding: 15px
-}
-h5 {
-  color: #3E6990
 }
